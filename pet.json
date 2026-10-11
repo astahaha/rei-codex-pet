@@ -1,7 +1,7 @@
 {
   "id": "rei",
   "displayName": "Rei",
-  "description": "Рей Аянами в пиксельном стиле 32-битных игр, по вашему референсу и палитре.",
+  "description": "Rei Ayanami in a 32-bit pixel-art style, based on a reference and color palette.",
   "spriteVersionNumber": 2,
   "spritesheetPath": "spritesheet.png"
 }

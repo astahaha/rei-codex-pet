@@ -1,17 +1,17 @@
 # Rei — Codex Pet
 
-Рей Аянами в пиксельном стиле 32-битных игр. Это пользовательский питомец для Codex, собранный в формате sprite atlas v2.
+Rei Ayanami in a 32-bit pixel-art style. This is a custom Codex pet using the sprite atlas v2 format.
 
-![Спрайт-лист Rei](spritesheet.png)
+![Rei sprite sheet](spritesheet.png)
 
-## Файлы
+## Files
 
-- `pet.json` — описание питомца и версия формата атласа.
-- `spritesheet.png` — прозрачный PNG, 1536 × 2288 px.
+- `pet.json` — pet metadata and sprite format version.
+- `spritesheet.png` — transparent PNG, 1536 × 2288 px.
 
-## Установка в Codex CLI
+## Install in Codex CLI
 
-Питомцы доступны в поддерживаемых интерактивных терминалах. Для установки скопируйте папку `rei` в каталог пользовательских питомцев Codex:
+Pets are available in supported interactive terminals. Copy the `rei` pet files into your Codex user pets directory:
 
 ```bash
 mkdir -p "$HOME/.codex/pets/rei"
@@ -21,14 +21,14 @@ cp /tmp/rei-codex-pet/rei-codex-pet-main/pet.json "$HOME/.codex/pets/rei/pet.jso
 cp /tmp/rei-codex-pet/rei-codex-pet-main/spritesheet.png "$HOME/.codex/pets/rei/spritesheet.png"
 ```
 
-Перезапустите Codex CLI, откройте интерактивный сеанс и выберите питомца через `/pets` или `/pet`.
+Restart Codex CLI, open an interactive session, and choose the pet with `/pets` or `/pet`.
 
-## Совместимость
+## Compatibility
 
-Этот репозиторий содержит Codex sprite atlas v2 размером 1536 × 2288. Загрузка пользовательского питомца в ChatGPT web использует отдельный формат: прозрачный PNG или WebP размером ровно 1536 × 1872 px. Этот файл напрямую для загрузки в ChatGPT web не подходит.
+This repository contains a Codex sprite atlas v2 measuring 1536 × 2288. Uploading a custom pet to ChatGPT on the web uses a separate format: a transparent PNG or WebP measuring exactly 1536 × 1872 px. This file is not directly compatible with the ChatGPT web upload flow.
 
-Питомцы в Codex IDE extension не поддерживаются; используйте Codex CLI или приложение ChatGPT для поддерживаемых возможностей питомцев. Подробности зависят от версии приложения и терминала. См. [официальную документацию Pets](https://learn.chatgpt.com/docs/pets).
+Pets are not available in the Codex IDE extension. Use Codex CLI or the ChatGPT desktop app for supported pet features. Availability depends on the app and terminal version. See the [official Pets documentation](https://learn.chatgpt.com/docs/pets).
 
-## Авторские права
+## Copyright
 
-Рей Аянами — персонаж Neon Genesis Evangelion. Это неофициальная фанатская работа; права на персонажа и исходные элементы принадлежат их правообладателям. Репозиторий не предоставляет лицензию на эти элементы.
+Rei Ayanami is a character from Neon Genesis Evangelion. This is unofficial fan art. The character and source elements belong to their respective rights holders. This repository does not grant a license to those elements.
